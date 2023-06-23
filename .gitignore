@@ -1,0 +1,9 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/Atena/AtenaApi/obj/Debug/net6.0
+/Atena/AtenaApi/obj
+/Atena/.vs
+/.vs
+/Atena/AtenaApi/bin/Debug
