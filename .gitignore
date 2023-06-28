@@ -7,3 +7,5 @@
 /Atena/.vs
 /.vs
 /Atena/AtenaApi/bin/Debug
+/Atena/Atena.Domain/obj
+/Atena/Atena.Domain.Core/obj
