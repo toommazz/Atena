@@ -10,8 +10,4 @@
     <ProjectReference Include="..\Atena.Domain.Core\Atena.Domain.Core.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Model\Endereco\" />
-  </ItemGroup>
-
 </Project>
