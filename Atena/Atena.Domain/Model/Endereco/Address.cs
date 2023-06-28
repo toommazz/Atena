@@ -1,4 +1,5 @@
-﻿using Atena.Domain.Model.Pessoa;
+﻿using Atena.Domain.Core.Model;
+using Atena.Domain.Model.Pessoa;
 
 namespace Atena.Domain.Model.Endereco
 {
