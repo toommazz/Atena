@@ -1,4 +1,5 @@
-﻿
+﻿using Atena.Domain.Core.Model;
+
 namespace Atena.Domain.Model.Pessoa
 {
     public class Participant : Entity
