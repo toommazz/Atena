@@ -1,4 +1,6 @@
-﻿namespace Atena.Domain.Model
+﻿using Atena.Domain.Core.Model;
+
+namespace Atena.Domain.Model
 {
     public class Empresa : Entity
     {

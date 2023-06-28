@@ -1,4 +1,6 @@
-﻿namespace Atena.Domain.Model.Endereco
+﻿using Atena.Domain.Core.Model;
+
+namespace Atena.Domain.Model.Endereco
 {
     public class Endereco : Entity
     {
