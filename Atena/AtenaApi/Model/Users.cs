@@ -1,6 +1,6 @@
 ﻿namespace AtenaApi.Model
 {
-    public class UsersModels
+    public class Users
     {
         public static List<User> User = new List<User>()
         {
