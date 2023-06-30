@@ -9,7 +9,7 @@
 
         public Guid? Id { get; protected set; }
         public DateTime Included { get; protected set; }
-        public DateTime Created { get; protected set; }
+        public DateTime Updated { get; protected set; }
         public string Status { get; protected set; } = "1";
         public virtual bool IsValid()
         {
