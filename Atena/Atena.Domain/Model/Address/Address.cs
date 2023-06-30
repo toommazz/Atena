@@ -17,7 +17,7 @@ namespace Atena.Domain.Model.Address
         public string State { get; set; }
         public string ZipCode { get; set; }
         public string Reference { get; set; }
-        public Participant ParticipantId { get; set; }
+        public Client ParticipantId { get; set; }
 
     }
     

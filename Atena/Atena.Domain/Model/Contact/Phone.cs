@@ -13,7 +13,7 @@ namespace Atena.Domain.Model.Contact
         public string Number { get; set; }
         public DateTime InsertDate { get; set; }
         public DateTime? UpdateDate { get; set; }
-        public virtual Participant ParticipantId { get; set; }
+        public virtual Client ClientId { get; set; }
     }
  
 }

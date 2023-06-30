@@ -2,12 +2,12 @@
 
 namespace Atena.Domain.Model.People
 {
-    public class Participant : Entity
+    public class Client : Entity
     {
-        public Participant(Guid? id) : base(id)
+        public Client(Guid? id) : base(id)
         {
         }
-        public ParticipantStatus ParticipantStatusId { get; set; }
+        public ClientStatus ClienttStatusId { get; set; }
         public string Name { get; set; }
         public string CPF { get; set; }
         public string RG { get; set; }

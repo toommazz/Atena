@@ -1,7 +1,7 @@
 ﻿
 namespace Atena.Domain.Model.People
 {
-    public enum ParticipantStatus
+    public enum ClientStatus
     {
         Active =1,
         Inactive =2,
