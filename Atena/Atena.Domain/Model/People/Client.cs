@@ -7,7 +7,7 @@ namespace Atena.Domain.Model.People
         public Client(Guid? id) : base(id)
         {
         }
-        public ClientStatus ClienttStatusId { get; set; }
+        public ClientStatus ClientStatusId { get; set; }
         public string Name { get; set; }
         public string CPF { get; set; }
         public string RG { get; set; }
