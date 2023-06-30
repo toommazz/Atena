@@ -16,7 +16,6 @@
     <Folder Include="Events\" />
     <Folder Include="EventHandles\" />
     <Folder Include="Validations\" />
-    <Folder Include="Repositories\" />
     <Folder Include="QueryHandlers\" />
     <Folder Include="Queries\" />
   </ItemGroup>
