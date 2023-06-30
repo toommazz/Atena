@@ -1,9 +1,12 @@
-﻿
+﻿using Atena.Domain.Core.Model;
+
 namespace Atena.Domain.Model
 {
-    public enum PersonType
+    public class PersonType : Entity
     {
-        Individual = 1,
-        Company = 2
+        public PersonType(Guid? id) : base(id) { }
+
+        public string Name { get; set; }
+        public string Description { get; set; }
     }
 }

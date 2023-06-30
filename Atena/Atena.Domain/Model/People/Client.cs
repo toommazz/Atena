@@ -7,18 +7,15 @@ namespace Atena.Domain.Model
         public Client(Guid? id) : base(id)
         {
         }
-        public ClientStatus ClientStatusId { get; set; }
         public string Name { get; set; }
         public string CPF { get; set; }
         public string RG { get; set; }
         public string Username { get; set; }
-        public GenderType? Gender { get; set; }
-        public MaritalStatusType MaritalStatusId { get; set; }
-        public DateTime InsertDate { get; set; }
-        public DateTime? UpdateDate { get; set; }
+        public Guid? GenderId { get; set; }
+        public Guid? MaritalStatusId { get; set; }
         public DateTime? BirthDate { get; set; }
         public DateTime? DateFirstAccess { get; set; }
-        public PersonType? PersonType { get; set; }
+        public Guid? PersonTypeId { get; set; }
 
 
     }

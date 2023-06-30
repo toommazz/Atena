@@ -1,11 +1,11 @@
-﻿
+﻿using Atena.Domain.Core.Model;
+
 namespace Atena.Domain.Model
 {
-    public enum  DocumentType
+    public class  DocumentType : Entity
     {
-        RG = 1,
-        CPF = 2,
-        CNPJ = 3,
-
+        public DocumentType(Guid? id) : base(id){ }
+        public string Name { get; set; }
+        public string Description { get; set; }
     }
 }
