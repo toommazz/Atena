@@ -1,7 +1,7 @@
 ﻿
-namespace Atena.Domain.Model.Documento
+namespace Atena.Domain.Model.Document
 {
-    public enum  DocumenType
+    public enum  DocumentType
     {
         RG = 1,
         CPF = 2,

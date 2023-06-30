@@ -1,6 +1,6 @@
 ﻿using Atena.Domain.Core.Model;
 
-namespace Atena.Domain.Model.Pessoa
+namespace Atena.Domain.Model.People
 {
     public class Participant : Entity
     {

@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel;
 
-namespace Atena.Domain.Model.Pessoa
+namespace Atena.Domain.Model.People
 {
     public enum MaritalStatusType
     {

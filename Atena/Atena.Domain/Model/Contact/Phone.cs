@@ -1,6 +1,7 @@
-﻿using Atena.Domain.Model.Pessoa;
+﻿using Atena.Domain.Core.Model;
+using Atena.Domain.Model.People;
 
-namespace Atena.Domain.Model.Contato
+namespace Atena.Domain.Model.Contact
 {
     public class Phone : Entity
     {

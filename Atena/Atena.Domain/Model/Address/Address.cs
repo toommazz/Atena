@@ -1,7 +1,7 @@
 ﻿using Atena.Domain.Core.Model;
-using Atena.Domain.Model.Pessoa;
+using Atena.Domain.Model.People;
 
-namespace Atena.Domain.Model.Endereco
+namespace Atena.Domain.Model.Address
 {
     public class Address : Entity
     {

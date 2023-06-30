@@ -1,5 +1,5 @@
 ﻿
-namespace Atena.Domain.Model.Contato
+namespace Atena.Domain.Model.Contact
 {
     public enum PhoneType
     {
