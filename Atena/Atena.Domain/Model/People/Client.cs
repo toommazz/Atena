@@ -14,11 +14,9 @@ namespace Atena.Domain.Model
         public string Username { get; set; }
         public GenderType? Gender { get; set; }
         public MaritalStatusType MaritalStatusId { get; set; }
-        public DateTime InsertDate { get; set; }
-        public DateTime? UpdateDate { get; set; }
         public DateTime? BirthDate { get; set; }
         public DateTime? DateFirstAccess { get; set; }
-        public PersonType? PersonType { get; set; }
+        public Guid? PersonTypeId { get; set; }
 
 
     }
