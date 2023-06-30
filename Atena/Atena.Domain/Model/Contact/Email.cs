@@ -1,5 +1,5 @@
 ﻿
-namespace Atena.Domain.Model.Contact
+namespace Atena.Domain.Model
 {
     public  class Email
     {

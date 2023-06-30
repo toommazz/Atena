@@ -1,7 +1,6 @@
 ﻿using Atena.Domain.Core.Model;
-using Atena.Domain.Model.People;
 
-namespace Atena.Domain.Model.Contact
+namespace Atena.Domain.Model
 {
     public class Phone : Entity
     {

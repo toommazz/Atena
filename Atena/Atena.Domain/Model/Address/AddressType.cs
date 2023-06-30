@@ -1,5 +1,5 @@
 ﻿
-namespace Atena.Domain.Model.Address
+namespace Atena.Domain.Model
 {
     public enum AddressType
     {

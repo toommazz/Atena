@@ -1,5 +1,5 @@
 ﻿
-namespace Atena.Domain.Model.Document
+namespace Atena.Domain.Model
 {
     public enum  DocumentType
     {

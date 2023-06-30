@@ -1,6 +1,4 @@
 ﻿using Atena.Domain.Core.Model;
-using Atena.Domain.Model.Contact;
-using Atena.Domain.Model.Address;
 
 namespace Atena.Domain.Model
 {

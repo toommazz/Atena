@@ -1,5 +1,5 @@
 ﻿
-namespace Atena.Domain.Model.People
+namespace Atena.Domain.Model
 {
     public enum ParticipantStatus
     {
