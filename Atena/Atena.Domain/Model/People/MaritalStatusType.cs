@@ -1,20 +1,14 @@
-﻿using System.ComponentModel;
+﻿using Atena.Domain.Core.Model;
 
 namespace Atena.Domain.Model
 {
-    public enum MaritalStatusType
+    public class MaritalStatusType : Entity
+
     {
-        [Description("MARRIED")]
-        Casado = 1,
-        [Description("DIVORCED")]
-        Divorciado = 2,
-        [Description("SINGLE")]
-        Solteiro = 3,
-        [Description("WIDOWER")]
-        Viuvo = 4,
-        [Description("SEPARATE")]
-        Separado = 5,
-        [Description("UNINFORMED")]
-        NaoInformado = 6
+        public MaritalStatusType(Guid? id) : base (id) { }
+        
+        public string Name { get; set; }
+        public string Description { get; set; }
+
     }
 }

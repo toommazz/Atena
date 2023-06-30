@@ -1,10 +1,14 @@
 ﻿
+using Atena.Domain.Core.Model;
+
 namespace Atena.Domain.Model
 {
-    public enum GenderType
+    public class GenderType : Entity 
     {
-        MALE = 1,
-        FEMALE = 2,
-        UNDEFINED = 3,
+        public GenderType(Guid? id) : base(id) { }
+
+        public string Name { get; set; }
+        public string Description { get; set; }
+
     }
 }

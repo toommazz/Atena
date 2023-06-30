@@ -1,9 +1,11 @@
-﻿
+﻿using Atena.Domain.Core.Model;
+
 namespace Atena.Domain.Model
 {
-    public enum EmailType
+    public class EmailType : Entity
     {
-        Personal = 1,
-        Commercial = 2
+        public EmailType(Guid? id) : base(id){ }
+        public string Name { get; set; }
+        public string Description { get; set; }
     }
 }

@@ -7,7 +7,7 @@ namespace Atena.Domain.Model
         public Address(Guid? id) : base(id)
         {
         }
-        public AddressType AddressType { get; set; }
+        public Guid? AddressTypeId { get; set; }
         public string AddressName { get; set; }
         public string Number { get; set; }
         public string Complement { get; set; }
@@ -16,7 +16,7 @@ namespace Atena.Domain.Model
         public string State { get; set; }
         public string ZipCode { get; set; }
         public string Reference { get; set; }
-        public Client ParticipantId { get; set; }
+        public virtual Client ClientId { get; set; }
 
     }
     

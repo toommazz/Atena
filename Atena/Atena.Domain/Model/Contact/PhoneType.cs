@@ -1,10 +1,11 @@
-﻿
+﻿using Atena.Domain.Core.Model;
+
 namespace Atena.Domain.Model
 {
-    public enum PhoneType
+    public class PhoneType : Entity 
     {
-        Home = 1,
-        Commercial = 2,
-        Cellular = 3
+        public PhoneType(Guid? id) : base(id) { }
+        public string Name { get; set; }
+        public string Description { get; set; }
     }
 }
