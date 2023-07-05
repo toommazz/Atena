@@ -12,8 +12,8 @@ namespace Atena.Domain.Model
         public string Number { get; set; }
         public string Complement { get; set; }
         public string District { get; set; }
-        public string City { get; set; }
-        public string State { get; set; }
+        public Guid? CityId { get; set; }
+        public Guid? StateId { get; set; }
         public string ZipCode { get; set; }
         public string Reference { get; set; }
         public virtual Client ClientId { get; set; }
