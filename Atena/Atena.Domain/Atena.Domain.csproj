@@ -14,12 +14,13 @@
     <Folder Include="CommandHandlers\" />
     <Folder Include="Events\" />
     <Folder Include="EventHandles\" />
-    <Folder Include="Validations\" />
     <Folder Include="QueryHandlers\" />
     <Folder Include="Queries\" />
+    <Folder Include="Validations\Company\" />
   </ItemGroup>
 
   <ItemGroup>
+    <PackageReference Include="FluentValidation" Version="11.6.0" />
     <PackageReference Include="MediatR" Version="12.0.1" />
   </ItemGroup>
 

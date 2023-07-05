@@ -43,6 +43,7 @@ namespace Atena.Domain.Commands.Client
         public DateTime? BirthDate { get; set; }
         public DateTime? DateFirstAccess { get; set; }
         public Guid? PersonTypeId { get; set; }
+        public string Status { get; set; }
         public override bool IsValid()
         {
             throw new NotImplementedException();
