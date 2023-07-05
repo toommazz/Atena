@@ -17,7 +17,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Atena.Domain.Core", "Atena.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Atena.Domain", "Atena.Domain\Atena.Domain.csproj", "{5A74C6D5-BFB2-44D1-A7C1-CF71960E01A8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Atena.Infra", "Atena.Infra\Atena.Infra.csproj", "{832E9EA3-4D0C-4177-BE85-B9FC75B118B0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Atena.Infra", "Atena.Infra\Atena.Infra.csproj", "{832E9EA3-4D0C-4177-BE85-B9FC75B118B0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
