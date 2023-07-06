@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\roger\\source\\repos\\Atena\\Atena\\Atena.Service\\Atena.Service.csproj": {}
+    "C:\\Users\\sergio.batista\\source\\Projetos Rogerio\\Atena\\Atena\\Atena.Service\\Atena.Service.csproj": {}
   },
   "projects": {
-    "C:\\Users\\roger\\source\\repos\\Atena\\Atena\\Atena.Domain.Core\\Atena.Domain.Core.csproj": {
+    "C:\\Users\\sergio.batista\\source\\Projetos Rogerio\\Atena\\Atena\\Atena.Domain.Core\\Atena.Domain.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\roger\\source\\repos\\Atena\\Atena\\Atena.Domain.Core\\Atena.Domain.Core.csproj",
+        "projectUniqueName": "C:\\Users\\sergio.batista\\source\\Projetos Rogerio\\Atena\\Atena\\Atena.Domain.Core\\Atena.Domain.Core.csproj",
         "projectName": "Atena.Domain.Core",
-        "projectPath": "C:\\Users\\roger\\source\\repos\\Atena\\Atena\\Atena.Domain.Core\\Atena.Domain.Core.csproj",
-        "packagesPath": "C:\\Users\\roger\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\roger\\source\\repos\\Atena\\Atena\\Atena.Domain.Core\\obj\\",
+        "projectPath": "C:\\Users\\sergio.batista\\source\\Projetos Rogerio\\Atena\\Atena\\Atena.Domain.Core\\Atena.Domain.Core.csproj",
+        "packagesPath": "C:\\Users\\sergio.batista\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\sergio.batista\\source\\Projetos Rogerio\\Atena\\Atena\\Atena.Domain.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\roger\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\sergio.batista\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -90,20 +90,20 @@
         }
       }
     },
-    "C:\\Users\\roger\\source\\repos\\Atena\\Atena\\Atena.Domain\\Atena.Domain.csproj": {
+    "C:\\Users\\sergio.batista\\source\\Projetos Rogerio\\Atena\\Atena\\Atena.Domain\\Atena.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\roger\\source\\repos\\Atena\\Atena\\Atena.Domain\\Atena.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\sergio.batista\\source\\Projetos Rogerio\\Atena\\Atena\\Atena.Domain\\Atena.Domain.csproj",
         "projectName": "Atena.Domain",
-        "projectPath": "C:\\Users\\roger\\source\\repos\\Atena\\Atena\\Atena.Domain\\Atena.Domain.csproj",
-        "packagesPath": "C:\\Users\\roger\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\roger\\source\\repos\\Atena\\Atena\\Atena.Domain\\obj\\",
+        "projectPath": "C:\\Users\\sergio.batista\\source\\Projetos Rogerio\\Atena\\Atena\\Atena.Domain\\Atena.Domain.csproj",
+        "packagesPath": "C:\\Users\\sergio.batista\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\sergio.batista\\source\\Projetos Rogerio\\Atena\\Atena\\Atena.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\roger\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\sergio.batista\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -119,8 +119,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\roger\\source\\repos\\Atena\\Atena\\Atena.Domain.Core\\Atena.Domain.Core.csproj": {
-                "projectPath": "C:\\Users\\roger\\source\\repos\\Atena\\Atena\\Atena.Domain.Core\\Atena.Domain.Core.csproj"
+              "C:\\Users\\sergio.batista\\source\\Projetos Rogerio\\Atena\\Atena\\Atena.Domain.Core\\Atena.Domain.Core.csproj": {
+                "projectPath": "C:\\Users\\sergio.batista\\source\\Projetos Rogerio\\Atena\\Atena\\Atena.Domain.Core\\Atena.Domain.Core.csproj"
               }
             }
           }
@@ -164,20 +164,20 @@
         }
       }
     },
-    "C:\\Users\\roger\\source\\repos\\Atena\\Atena\\Atena.Service\\Atena.Service.csproj": {
+    "C:\\Users\\sergio.batista\\source\\Projetos Rogerio\\Atena\\Atena\\Atena.Service\\Atena.Service.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\roger\\source\\repos\\Atena\\Atena\\Atena.Service\\Atena.Service.csproj",
+        "projectUniqueName": "C:\\Users\\sergio.batista\\source\\Projetos Rogerio\\Atena\\Atena\\Atena.Service\\Atena.Service.csproj",
         "projectName": "Atena.Service",
-        "projectPath": "C:\\Users\\roger\\source\\repos\\Atena\\Atena\\Atena.Service\\Atena.Service.csproj",
-        "packagesPath": "C:\\Users\\roger\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\roger\\source\\repos\\Atena\\Atena\\Atena.Service\\obj\\",
+        "projectPath": "C:\\Users\\sergio.batista\\source\\Projetos Rogerio\\Atena\\Atena\\Atena.Service\\Atena.Service.csproj",
+        "packagesPath": "C:\\Users\\sergio.batista\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\sergio.batista\\source\\Projetos Rogerio\\Atena\\Atena\\Atena.Service\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\roger\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\sergio.batista\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -193,11 +193,11 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\roger\\source\\repos\\Atena\\Atena\\Atena.Domain.Core\\Atena.Domain.Core.csproj": {
-                "projectPath": "C:\\Users\\roger\\source\\repos\\Atena\\Atena\\Atena.Domain.Core\\Atena.Domain.Core.csproj"
+              "C:\\Users\\sergio.batista\\source\\Projetos Rogerio\\Atena\\Atena\\Atena.Domain.Core\\Atena.Domain.Core.csproj": {
+                "projectPath": "C:\\Users\\sergio.batista\\source\\Projetos Rogerio\\Atena\\Atena\\Atena.Domain.Core\\Atena.Domain.Core.csproj"
               },
-              "C:\\Users\\roger\\source\\repos\\Atena\\Atena\\Atena.Domain\\Atena.Domain.csproj": {
-                "projectPath": "C:\\Users\\roger\\source\\repos\\Atena\\Atena\\Atena.Domain\\Atena.Domain.csproj"
+              "C:\\Users\\sergio.batista\\source\\Projetos Rogerio\\Atena\\Atena\\Atena.Domain\\Atena.Domain.csproj": {
+                "projectPath": "C:\\Users\\sergio.batista\\source\\Projetos Rogerio\\Atena\\Atena\\Atena.Domain\\Atena.Domain.csproj"
               }
             }
           }
