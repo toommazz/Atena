@@ -1,5 +1,4 @@
 ﻿using Atena.Domain.Interfaces.Commands;
-using System.Data;
 
 namespace Atena.Domain.Commands.Client
 {

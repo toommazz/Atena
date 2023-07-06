@@ -4,9 +4,7 @@ namespace Atena.Domain.Model
 {
     public class Address : Entity
     {
-        public Address(Guid? id) : base(id)
-        {
-        }
+        public Address(Guid? id) : base(id) {  }
         public Guid? AddressTypeId { get; set; }
         public string AddressName { get; set; }
         public string Number { get; set; }

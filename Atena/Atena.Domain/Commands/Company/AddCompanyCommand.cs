@@ -9,9 +9,7 @@ namespace Atena.Domain.Commands.Company
             Guid? id, 
             string companyName, 
             string corporateName,
-            string cnpj ) : base(id, companyName, corporateName, cnpj)
-        {
-        }
+            string cnpj ) : base(id, companyName, corporateName, cnpj) { }
 
         public override bool IsValid()
         {
