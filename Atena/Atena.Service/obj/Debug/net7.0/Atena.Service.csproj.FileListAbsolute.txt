@@ -1,0 +1,17 @@
+C:\Users\roger\source\repos\Atena\Atena\Atena.Service\bin\Debug\net7.0\Atena.Service.deps.json
+C:\Users\roger\source\repos\Atena\Atena\Atena.Service\bin\Debug\net7.0\Atena.Service.dll
+C:\Users\roger\source\repos\Atena\Atena\Atena.Service\bin\Debug\net7.0\Atena.Service.pdb
+C:\Users\roger\source\repos\Atena\Atena\Atena.Service\bin\Debug\net7.0\Atena.Domain.Core.dll
+C:\Users\roger\source\repos\Atena\Atena\Atena.Service\bin\Debug\net7.0\Atena.Domain.dll
+C:\Users\roger\source\repos\Atena\Atena\Atena.Service\bin\Debug\net7.0\Atena.Domain.Core.pdb
+C:\Users\roger\source\repos\Atena\Atena\Atena.Service\bin\Debug\net7.0\Atena.Domain.pdb
+C:\Users\roger\source\repos\Atena\Atena\Atena.Service\obj\Debug\net7.0\Atena.Service.csproj.AssemblyReference.cache
+C:\Users\roger\source\repos\Atena\Atena\Atena.Service\obj\Debug\net7.0\Atena.Service.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\roger\source\repos\Atena\Atena\Atena.Service\obj\Debug\net7.0\Atena.Service.AssemblyInfoInputs.cache
+C:\Users\roger\source\repos\Atena\Atena\Atena.Service\obj\Debug\net7.0\Atena.Service.AssemblyInfo.cs
+C:\Users\roger\source\repos\Atena\Atena\Atena.Service\obj\Debug\net7.0\Atena.Service.csproj.CoreCompileInputs.cache
+C:\Users\roger\source\repos\Atena\Atena\Atena.Service\obj\Debug\net7.0\Atena.Service.csproj.CopyComplete
+C:\Users\roger\source\repos\Atena\Atena\Atena.Service\obj\Debug\net7.0\Atena.Service.dll
+C:\Users\roger\source\repos\Atena\Atena\Atena.Service\obj\Debug\net7.0\refint\Atena.Service.dll
+C:\Users\roger\source\repos\Atena\Atena\Atena.Service\obj\Debug\net7.0\Atena.Service.pdb
+C:\Users\roger\source\repos\Atena\Atena\Atena.Service\obj\Debug\net7.0\ref\Atena.Service.dll

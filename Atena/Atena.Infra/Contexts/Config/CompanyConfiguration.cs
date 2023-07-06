@@ -15,8 +15,6 @@ namespace Atena.Infra.Contexts.Config
 
             builder.Property(s => s.Id)
                 .IsRequired();
-
-            builder.Property(x => x.Id).UseIdentityColumn();
         }
     }
 }

@@ -1,4 +1,6 @@
-﻿using Atena.Infra.Interfaces;
+﻿using Atena.Domain.Model;
+using Atena.Infra.Contexts.Config;
+using Atena.Infra.Interfaces;
 using Microsoft.EntityFrameworkCore;
 
 namespace Atena.Infra.Contexts.Base
@@ -9,9 +11,9 @@ namespace Atena.Infra.Contexts.Base
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            //modelBuilder.ApplyConfiguration(new DemoConfiguration());
+            modelBuilder.ApplyConfiguration(new CompanyConfiguration());
         }
 
-        //public DbSet<Demo> Demos { get; set; }
+        public DbSet<Company> Company { get; set; }
     }
 }
