@@ -19,6 +19,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Atena.Domain", "Atena.Domai
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Atena.Infra", "Atena.Infra\Atena.Infra.csproj", "{832E9EA3-4D0C-4177-BE85-B9FC75B118B0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Atena.Service", "Atena.Service\Atena.Service.csproj", "{609BBFC5-BFF0-45D9-92DE-6EACCD707C60}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -41,6 +43,10 @@ Global
 		{832E9EA3-4D0C-4177-BE85-B9FC75B118B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{832E9EA3-4D0C-4177-BE85-B9FC75B118B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{832E9EA3-4D0C-4177-BE85-B9FC75B118B0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{609BBFC5-BFF0-45D9-92DE-6EACCD707C60}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{609BBFC5-BFF0-45D9-92DE-6EACCD707C60}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{609BBFC5-BFF0-45D9-92DE-6EACCD707C60}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{609BBFC5-BFF0-45D9-92DE-6EACCD707C60}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -50,6 +56,7 @@ Global
 		{66DCF396-3DCF-4321-BB13-CDABDBCA4962} = {72A888C5-4598-4FAB-BDF7-5B8A49C268F2}
 		{5A74C6D5-BFB2-44D1-A7C1-CF71960E01A8} = {72A888C5-4598-4FAB-BDF7-5B8A49C268F2}
 		{832E9EA3-4D0C-4177-BE85-B9FC75B118B0} = {5C65F5B1-CB0C-449C-805C-02BABB5ABC91}
+		{609BBFC5-BFF0-45D9-92DE-6EACCD707C60} = {83C343B0-86DF-406B-8948-EDFFB7A1A7D3}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {2DB55B14-EDEF-4A81-BDC7-8F3F0AD82DE4}

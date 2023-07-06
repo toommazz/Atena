@@ -14,8 +14,6 @@
     <Folder Include="CommandHandlers\" />
     <Folder Include="Events\" />
     <Folder Include="EventHandles\" />
-    <Folder Include="QueryHandlers\" />
-    <Folder Include="Queries\" />
   </ItemGroup>
 
   <ItemGroup>

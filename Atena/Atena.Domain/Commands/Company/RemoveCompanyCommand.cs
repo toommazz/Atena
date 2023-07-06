@@ -1,4 +1,5 @@
 ﻿using Atena.Domain.Interfaces.Commands;
+using Atena.Domain.Validations.Company;
 
 namespace Atena.Domain.Commands.Company
 {
@@ -15,4 +16,5 @@ namespace Atena.Domain.Commands.Company
             ValidationResult = new RemoveCompanyValidation().Validate(this);
             return ValidationResult.IsValid;
         }
+    }
 }
