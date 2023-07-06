@@ -15,3 +15,11 @@ C:\Users\roger\source\repos\Atena\Atena\Atena.Service\obj\Debug\net7.0\Atena.Ser
 C:\Users\roger\source\repos\Atena\Atena\Atena.Service\obj\Debug\net7.0\refint\Atena.Service.dll
 C:\Users\roger\source\repos\Atena\Atena\Atena.Service\obj\Debug\net7.0\Atena.Service.pdb
 C:\Users\roger\source\repos\Atena\Atena\Atena.Service\obj\Debug\net7.0\ref\Atena.Service.dll
+C:\Users\sergio.batista\source\Projetos Rogerio\Atena\Atena\Atena.Service\obj\Debug\net7.0\Atena.Service.csproj.AssemblyReference.cache
+C:\Users\sergio.batista\source\Projetos Rogerio\Atena\Atena\Atena.Service\obj\Debug\net7.0\Atena.Service.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sergio.batista\source\Projetos Rogerio\Atena\Atena\Atena.Service\obj\Debug\net7.0\Atena.Service.AssemblyInfoInputs.cache
+C:\Users\sergio.batista\source\Projetos Rogerio\Atena\Atena\Atena.Service\obj\Debug\net7.0\Atena.Service.AssemblyInfo.cs
+C:\Users\sergio.batista\source\Projetos Rogerio\Atena\Atena\Atena.Service\obj\Debug\net7.0\Atena.Service.csproj.CoreCompileInputs.cache
+C:\Users\sergio.batista\source\Projetos Rogerio\Atena\Atena\Atena.Service\obj\Debug\net7.0\Atena.Service.dll
+C:\Users\sergio.batista\source\Projetos Rogerio\Atena\Atena\Atena.Service\obj\Debug\net7.0\refint\Atena.Service.dll
+C:\Users\sergio.batista\source\Projetos Rogerio\Atena\Atena\Atena.Service\obj\Debug\net7.0\Atena.Service.pdb

@@ -20,7 +20,7 @@ namespace Atena.Domain.Commands.People.GenderType
             Description = description;
         }
         public string Name { get; set; }
-        public string Description { get; set; })
+        public string Description { get; set; }
         public override bool IsValid()
         {
             throw new NotImplementedException();
