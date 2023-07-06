@@ -6,7 +6,7 @@ namespace Atena.Domain.Validations.Company
     {
         public RemoveCompanyValidation() 
         {
-            Validate();
+            ValidateId();
         }
     }
 }

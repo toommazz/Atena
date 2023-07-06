@@ -1,5 +1,5 @@
 ﻿using Atena.Domain.Interfaces.Commands;
-using System.Globalization;
+using Atena.Domain.Validations.Company;
 
 namespace Atena.Domain.Commands.Company
 {
@@ -13,7 +13,8 @@ namespace Atena.Domain.Commands.Company
 
         public override bool IsValid()
         {
-            return base.IsValid();
+            ValidationResult = new AddCompanyValidation().Validate(this);
+            return ValidationResult.IsValid;
         }
     }
 }

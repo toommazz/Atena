@@ -1,4 +1,5 @@
 ﻿using Atena.Domain.Interfaces.Commands;
+using Atena.Domain.Validations.Address;
 
 namespace Atena.Domain.Commands.Address
 {
@@ -21,7 +22,8 @@ namespace Atena.Domain.Commands.Address
             ) : base(id, addressTypeId, addressName,number, complement,district,cityId, stateId, zipCode, reference, clientId) { }
         public override bool IsValid()
         {
-            return base.IsValid();
+            ValidationResult = new AddAddressValidation().Validate(this);
+            return ValidationResult.IsValid;
         }
     }
 }

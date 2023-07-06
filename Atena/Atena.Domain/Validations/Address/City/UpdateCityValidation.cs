@@ -2,7 +2,7 @@
 
 namespace Atena.Domain.Validations.Address.City
 {
-    public class UpdateCityValidation : CityValidation<CityCommand>
+    public class UpdateCityValidation : CityValidation<UpdateCityCommand>
     {
         public UpdateCityValidation() 
         {

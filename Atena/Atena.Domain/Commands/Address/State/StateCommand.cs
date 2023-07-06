@@ -21,7 +21,6 @@ namespace Atena.Domain.Commands.Address.State
         }
         public string Name { get; set; }
         public string Description { get; set; }
-
         public override bool IsValid()
         {
             throw new NotImplementedException();

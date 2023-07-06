@@ -1,5 +1,6 @@
 ﻿
 using Atena.Domain.Interfaces.Commands;
+using Atena.Domain.Validations.Address.State;
 
 namespace Atena.Domain.Commands.Address.State
 {
@@ -12,7 +13,8 @@ namespace Atena.Domain.Commands.Address.State
 
         public override bool IsValid()
         {
-            return base.IsValid();
+            ValidationResult = new AddStateValidation().Validate(this);
+            return ValidationResult.IsValid;
         }
     }
 }

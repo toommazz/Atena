@@ -2,7 +2,7 @@
 
 namespace Atena.Domain.Validations.Address.City
 {
-    public class RemoveCityValidation : CityValidation<CityCommand>
+    public class RemoveCityValidation : CityValidation<RemoveCityCommand>
     {
         public RemoveCityValidation() 
         {

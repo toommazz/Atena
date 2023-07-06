@@ -12,7 +12,8 @@ namespace Atena.Domain.Commands.Address.AddressType
         }
         public override bool IsValid()
         {
-            return base.IsValid();
+            ValidationResult = new UpdateAddresTypeValidation().Validate(this);
+            return ValidationResult.IsValid;
         }
     }
 }

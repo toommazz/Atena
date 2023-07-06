@@ -10,7 +10,8 @@ namespace Atena.Domain.Commands.Address.AddressType
             string description) : base(id, name, description) { }
         public override bool IsValid()
         {
-            return base.IsValid();
+            ValidationResult = new AddAddressTypeValidation().Validate(this);
+            return ValidationResult.IsValid;
         }
     }
 }
