@@ -30,31 +30,35 @@ namespace Atena.Domain.Core.CommandHandles
 
             var query = RepositoryExtension.LambdaInsertGeneration(entity);
 
-            var registered = await _repository.GetOneAsync(query);
-
-            if (registered != null)
+            if (query != null)
             {
-                var type = entity.GetType();
 
-                var properties = type.GetProperties();
+                var registered = await _repository.GetOneAsync(query);
 
-                var ListProperties = properties.Where(c => c.GetCustomAttributes(false).Any(
-                    a => a.GetType() == typeof(PropertyValidationAttribute
-                    ))).ToList();
-
-                string message = $"O objeto {entity.GetType().Name} com o(s) valores: ";
-
-                for (int i = 0; i < ListProperties.Count(); i++)
+                if (registered != null)
                 {
-                    if (ListProperties[i].GetValue(entity, null).ToString() ==
-                        ListProperties[i].GetValue(registered, null).ToString())
-                    {
-                        message += $"{ListProperties[i].Name}: {ListProperties[i].GetValue(entity, null)}; ";
-                    }
-                }
+                    var type = entity.GetType();
 
-                NotifyError(message);
-                return;
+                    var properties = type.GetProperties();
+
+                    var ListProperties = properties.Where(c => c.GetCustomAttributes(false).Any(
+                        a => a.GetType() == typeof(PropertyValidationAttribute
+                        ))).ToList();
+
+                    string message = $"O objeto {entity.GetType().Name} com o(s) valores: ";
+
+                    for (int i = 0; i < ListProperties.Count(); i++)
+                    {
+                        if (ListProperties[i].GetValue(entity, null).ToString() ==
+                            ListProperties[i].GetValue(registered, null).ToString())
+                        {
+                            message += $"{ListProperties[i].Name}: {ListProperties[i].GetValue(entity, null)}; ";
+                        }
+                    }
+
+                    NotifyError(message);
+                    return;
+                }
             }
 
             await _repository.AddAsync(entity);

@@ -73,13 +73,23 @@ namespace Atena.Infra.Repositories.Base
 
         public async Task<TEntity> GetOneAsync(Expression<Func<TEntity, bool>> filter = null, Func<Expression<Func<TEntity, bool>>, TEntity> whenNoExists = null)
         {
-            IQueryable<TEntity> query = _context.Set<TEntity>();
+            try
+            {
+                IQueryable<TEntity> query = _context.Set<TEntity>();
 
-            var cursor = query.Where(filter);
+                var cursor = query.Where(filter);
 
-            var result = cursor?.FirstOrDefault();
+                var result = cursor?.FirstOrDefault();
 
-            return result;
+                return result;
+            }
+            catch (Exception ex)
+            {
+
+                throw ex;
+            }
+
+            
         }
 
         public async Task<EntityEntry<TEntity>> RemoveAsync(Guid? id)
