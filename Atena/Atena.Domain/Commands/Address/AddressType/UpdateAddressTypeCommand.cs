@@ -1,4 +1,5 @@
 ﻿using Atena.Domain.Interfaces.Commands;
+using Atena.Domain.Validations.Address.AddressType;
 
 namespace Atena.Domain.Commands.Address.AddressType
 {
@@ -12,7 +13,7 @@ namespace Atena.Domain.Commands.Address.AddressType
         }
         public override bool IsValid()
         {
-            ValidationResult = new UpdateAddresTypeValidation().Validate(this);
+            ValidationResult = new UpdateAddressTypeValidation().Validate(this);
             return ValidationResult.IsValid;
         }
     }

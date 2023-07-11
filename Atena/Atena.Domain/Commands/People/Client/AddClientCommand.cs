@@ -1,5 +1,5 @@
 ﻿using Atena.Domain.Interfaces.Commands;
-using Atena.Domain.Validations.Client;
+using Atena.Domain.Validations.People.Client;
 
 namespace Atena.Domain.Commands.People.Client
 {

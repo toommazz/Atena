@@ -1,4 +1,5 @@
 ﻿using Atena.Domain.Interfaces.Commands;
+using Atena.Domain.Validations.Address.AddressType;
 
 namespace Atena.Domain.Commands.Address.AddressType
 {
