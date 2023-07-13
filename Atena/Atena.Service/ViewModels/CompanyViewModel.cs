@@ -10,6 +10,7 @@
             DateTime updated,
             string status)
         {
+            Id = id;
             CompanyName = companyName;
             CorporateName = companyName;
             CNPJ = cnpj;
