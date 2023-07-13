@@ -1,7 +1,5 @@
 ﻿using Atena.Domain.Core.Model;
 
-using Atena.Domain.Core.Model;
-
 namespace Atena.Domain.Model
 {
     public class PersonType : Entity

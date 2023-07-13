@@ -1,9 +1,11 @@
 ﻿
+using Atena.Domain.Core.Model;
+
 namespace Atena.Domain.Model
 {
-    public class Phone
+    public class Phone : Entity
     {
-        public Guid Id { get; set; }
+        public Phone(Guid? id) : base(id) { }
         public Guid? PhoneTypeId { get; set; }
         public string Ddd { get; set; }
         public string Number { get; set; }
