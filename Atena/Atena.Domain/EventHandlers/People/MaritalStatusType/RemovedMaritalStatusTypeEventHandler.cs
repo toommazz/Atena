@@ -6,7 +6,7 @@ using System.Security.Claims;
 
 namespace Atena.Domain.EventHandlers
 {
-    public class RemovedMaritalStatusTypeEventHandler : EventHandler<RemovedMaritalTypeEvent, MaritalStatusType>
+    public class RemovedMaritalStatusTypeEventHandler : EventHandler<RemovedMaritalStatusTypeEvent, MaritalStatusType>
     {
         public RemovedMaritalStatusTypeEventHandler(IEventStoreRepository eventStoryRepository, ClaimsPrincipal user) : base(eventStoryRepository, user)
         {
