@@ -10,7 +10,7 @@ namespace Atena.Domain.CommandHandlers
 {
     public class UpdatePhoneCommandHandler : CommandHandlerUpdate<UpdatePhoneCommand, Phone, UpdatePhoneEvent>
     {
-        public UpdatePhoneCommandHandler(IMediatorHandler mediator, IMapper mapper, IRepository<PhoneType> repository) : base(mediator, mapper, repository)
+        public UpdatePhoneCommandHandler(IMediatorHandler mediator, IMapper mapper, IRepository<Phone> repository) : base(mediator, mapper, repository)
         {
         }
     }

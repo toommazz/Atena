@@ -6,7 +6,7 @@ using Atena.Domain.Events;
 using Atena.Domain.Model;
 using AutoMapper;
 
-namespace Atena.Domain.CommandHandlers.Login
+namespace Atena.Domain.CommandHandlers
 {
     public class AddCompanyCommandHandler : CommandHandlerAdd<AddCompanyCommand, Company, AddedCompanyEvent>
     {

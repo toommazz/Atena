@@ -3,5 +3,5 @@ using Atena.Domain.Model;
 
 namespace Atena.Domain.Repositories
 {
-    public interface IAddress : IRepository<Address> { }
+    public interface IAddressRepository : IRepository<Address> { }
 }

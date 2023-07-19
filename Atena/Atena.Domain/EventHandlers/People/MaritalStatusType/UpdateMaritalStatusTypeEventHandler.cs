@@ -6,7 +6,8 @@ using System.Security.Claims;
 
 namespace Atena.Domain.EventHandlers
 {
-    public class UpdateMaritalStatusTypeEventHandler : EventHandler<UpdateMaritalTypeEvent, MaritalStatusType>
+                                                                    
+    public class UpdateMaritalStatusTypeEventHandler : EventHandler<UpdateMaritalStatusTypeEvent, MaritalStatusType>
     {
         public UpdateMaritalStatusTypeEventHandler(IEventStoreRepository eventStoryRepository, ClaimsPrincipal user) : base(eventStoryRepository, user)
         {
