@@ -3,5 +3,6 @@ using Atena.Domain.Model;
 
 namespace Atena.Domain.Repositories
 {
-    public interface IAddress : IRepository<Address> { }
+    public interface IEmailTypeRepository :  IRepository<EmailType> { }
+  
 }
