@@ -3,6 +3,5 @@ using Atena.Domain.Model;
 
 namespace Atena.Domain.Repositories
 {
-    public interface IAddressTypeRepository : IRepository<AddressType> { }
-
+    public interface IPhoneRepository : IRepository<Phone> { }
 }

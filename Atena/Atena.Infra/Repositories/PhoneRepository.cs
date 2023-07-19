@@ -5,8 +5,10 @@ using Atena.Infra.Repositories.Base;
 
 namespace Atena.Infra.Repositories
 {
-    public class AddressTypeRepository : SqlServerRepository<AddressType>, IAddressTypeRepository
+    public class PhoneRepository : SqlServerRepository<Phone>, IPhoneRepository
     {
-        public AddressTypeRepository(AtenaDataContext context) : base(context) { }
+        public PhoneRepository(AtenaDataContext context) : base(context)
+        {
+        }
     }
 }
