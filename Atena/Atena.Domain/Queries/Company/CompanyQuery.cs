@@ -1,5 +1,4 @@
-﻿
-using Atena.Domain.Core;
+﻿using Atena.Domain.Core;
 using Atena.Domain.Core.Data;
 
 namespace Atena.Domain.Queries

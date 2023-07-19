@@ -6,16 +6,17 @@ using Atena.Domain.Repositories;
 
 namespace Atena.Domain.QueryHandler
 {
-    public class GetCompanyQueryHandler : MediatorQueryHandler<GetCompanyQuery, Company>
+    public class GetAddressQueryHandler : MediatorQueryHandler<GetAddressQuery, Address>
     {
-        private readonly ICompanyRepository _repository;
+        private readonly IAddressRepository _repository;
 
-        public GetCompanyQueryHandler(ICompanyRepository repository,
-            IMediatorHandler mediator) : base(mediator)        
+        public GetAddressQueryHandler(
+            IAddressRepository repository,
+            IMediatorHandler mediator) : base(mediator)
         {
             _repository = repository;
         }
-        public override async Task<Company> AfterValidation(GetCompanyQuery request)
+        public override async Task<Address> AfterValidation(GetAddressQuery request)
         {
             return await _repository.GetOneAsync(x => x.Id == request.Id);
         }

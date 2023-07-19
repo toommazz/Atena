@@ -7,18 +7,18 @@ using Atena.Domain.Repositories;
 
 namespace Atena.Domain.QueryHandler
 {
-    public class GetPagedCompanyQueryHandler : MediatorQueryHandler<GetPagedCompanyQuery, PagedList<Company>>
+    public class GetPagedClientQueryHandler : MediatorQueryHandler<GetPagedClientQuery, PagedList<Client>>
     {
-        private readonly ICompanyRepository _repository;
+        private readonly IClientRepository _repository;
 
-        public GetPagedCompanyQueryHandler(
-            ICompanyRepository repository,
-            IMediatorHandler mediator) : base(mediator)
+        public GetPagedClientQueryHandler(
+            IClientRepository repository,
+            IMediatorHandler mediator) : base (mediator)
         {
             _repository = repository;
         }
 
-        public override async Task<PagedList<Company>> AfterValidation(GetPagedCompanyQuery request)
+        public override  async Task<PagedList<Client>> AfterValidation(GetPagedClientQuery request)
         {
             return await _repository.GetAllPagedAsync(request.Order, request.Page, request.Filter);
         }
