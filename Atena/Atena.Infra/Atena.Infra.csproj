@@ -8,7 +8,6 @@
 
   <ItemGroup>
     <Folder Include="Contexts\Config\" />
-    <Folder Include="Script\" />
   </ItemGroup>
 
   <ItemGroup>
