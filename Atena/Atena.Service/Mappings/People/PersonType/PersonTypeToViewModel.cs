@@ -11,8 +11,7 @@ namespace Atena.Service.Mappings
         {
             CreateMap<PersonType, PersonTypeViewModel>();
 
-            CreateMap<PagedList<PersonType>, PersonTypeViewModel>();
-
+            CreateMap<PagedList<PersonType>, PagedList<PersonTypeViewModel>>();
         }
     }
 }
