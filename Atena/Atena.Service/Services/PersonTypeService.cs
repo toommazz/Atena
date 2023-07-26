@@ -10,7 +10,7 @@ using AutoMapper;
 
 namespace Atena.Service
 {
-    public class PersonTypeServices : AppService<PersonTypeViewModel, PersonType,
+    public class PersonTypeService : AppService<PersonTypeViewModel, PersonType,
         AddPersonTypeCommand, UpdatePersonTypeCommand, RemovePersonTypeCommand,
         GetPersonTypeQuery, GetPagedPersonTypeQuery>, IPersonTypeService
     {
@@ -18,7 +18,7 @@ namespace Atena.Service
         private readonly IMediatorHandler _mediator;
         private readonly DomainNotificationHandler _notifications;
         private readonly IUnitOfWork _unitOfWork;
-        public PersonTypeServices(IMapper mapper, IMediatorHandler mediator, IUnitOfWork unitOfWork) : base(mapper, mediator, unitOfWork)
+        public PersonTypeService(IMapper mapper, IMediatorHandler mediator, IUnitOfWork unitOfWork) : base(mapper, mediator, unitOfWork)
         {
             _mapper = mapper;
             _mediator = mediator;

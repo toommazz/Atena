@@ -2,7 +2,7 @@
 using Atena.Domain.Model;
 using AutoMapper;
 
-namespace Atena.Service.Mappings.People.PersonType
+namespace Atena.Service.Mappings
 {
     public class CommandToPersonType : Profile
     {
