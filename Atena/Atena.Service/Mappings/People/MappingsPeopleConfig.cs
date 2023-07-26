@@ -1,4 +1,5 @@
-﻿using AutoMapper;
+﻿using Atena.Service.Mappings.People.PersonType;
+using AutoMapper;
 
 namespace Atena.Service.Mappings
 {
@@ -11,6 +12,10 @@ namespace Atena.Service.Mappings
                 config.AddProfile(new GenderTypeToViewModel());
                 config.AddProfile(new ViewModelToGenderType());
                 config.AddProfile(new CommandToGendeType());
+                config.AddProfile(new PersonTypeToViewModel());
+                config.AddProfile(new ViewModelToPersonType());
+                config.AddProfile(new CommandToPersonType());
+
             });
         }
     }

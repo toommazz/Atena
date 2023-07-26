@@ -2,11 +2,11 @@
 using Atena.Service.ViewModels;
 using AutoMapper;
 
-namespace Atena.Service.Mappings
+namespace Atena.Service.Mappings.People.PersonType
 {
     public class ViewModelToPersonType : Profile
     {
-        public ViewModelToPersonType() 
+        public ViewModelToPersonType()
         {
             CreateMap<PersonTypeViewModel, AddPersonTypeCommand>();
 

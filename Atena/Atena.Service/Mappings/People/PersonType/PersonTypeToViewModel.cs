@@ -1,12 +1,13 @@
 ﻿using Atena.Domain.Core.Data;
 using Atena.Domain.Model;
 using Atena.Service.ViewModels;
+using AutoMapper;
 
 namespace Atena.Service.Mappings
 {
-    public class PersonTypeToViewModel
+    public class PersonTypeToViewModel : Profile
     {
-        public PersonTypeToViewModel() 
+        public PersonTypeToViewModel()
         {
             CreateMap<PersonType, PersonTypeViewModel>();
 

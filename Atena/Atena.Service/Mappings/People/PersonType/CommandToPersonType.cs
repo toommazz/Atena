@@ -2,15 +2,16 @@
 using Atena.Domain.Model;
 using AutoMapper;
 
-namespace Atena.Service.Mappings
+namespace Atena.Service.Mappings.People.PersonType
 {
     public class CommandToPersonType : Profile
     {
-        public CommandToPersonType() {
+        public CommandToPersonType()
+        {
 
             CreateMap<AddPersonTypeCommand, PersonType>();
 
-            CreateMap <UpdatePersonTypeCommand,PersonType>();
+            CreateMap<UpdatePersonTypeCommand, PersonType>();
 
             CreateMap<RemovePersonTypeCommand, PersonType>();
         }

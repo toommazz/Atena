@@ -8,7 +8,7 @@ namespace Atena.Infra.Contexts.Config
     {
         public void Configure(EntityTypeBuilder<MaritalStatusType> builder)
         {
-            builder.ToTable("MaritalStatusType");
+            builder.ToTable("TbMaritalStatusType");
 
             builder.HasKey(x => x.Id);
 

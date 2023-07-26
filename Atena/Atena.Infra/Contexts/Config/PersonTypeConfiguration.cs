@@ -9,7 +9,7 @@ namespace Atena.Infra.Contexts.Config
     {
         public void Configure(EntityTypeBuilder<PersonType> builder)
         {
-            builder.ToTable("PersonType");
+            builder.ToTable("TbPersonType");
 
             builder.HasKey(x => x.Id);
 
