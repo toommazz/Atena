@@ -11,6 +11,9 @@ namespace Atena.Service.Mappings
                 config.AddProfile(new GenderTypeToViewModel());
                 config.AddProfile(new ViewModelToGenderType());
                 config.AddProfile(new CommandToGendeType());
+                config.AddProfile(new MaritalStatusTypeToViewModel());
+                config.AddProfile(new ViewModelToMaritalStatusType());
+                config.AddProfile(new CommandToMaritalStatusType());
             });
         }
     }
