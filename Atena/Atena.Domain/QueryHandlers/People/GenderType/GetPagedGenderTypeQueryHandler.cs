@@ -7,7 +7,7 @@ using Atena.Domain.Repositories;
 
 namespace Atena.Domain.QueryHandler
 {
-    public class GetPagedGenderTypeQueryHandler : MediatorQueryHandler<GetPagedGendertypeQuery, PagedList<GenderType>>
+    public class GetPagedGenderTypeQueryHandler : MediatorQueryHandler<GetPagedGenderTypeQuery, PagedList<GenderType>>
     {
         private readonly IGenderTypeRepository _repository;
 
@@ -18,7 +18,7 @@ namespace Atena.Domain.QueryHandler
             _repository = repository;
         }
 
-        public override async Task<PagedList<GenderType>> AfterValidation(GetPagedGendertypeQuery request)
+        public override async Task<PagedList<GenderType>> AfterValidation(GetPagedGenderTypeQuery request)
         {
             return await _repository.GetAllPagedAsync(request.Order, request.Page, request.Filter);
         }

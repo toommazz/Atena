@@ -66,7 +66,8 @@ builder.Services.Scan(i => i.FromApplicationDependencies(j => j.FullName.ToUpper
 
 builder.Services.AddTransient(t => t.GetService<IHttpContextAccessor>().HttpContext.User);
 
-builder.Services.AddSingleton(MappingsConfig.RegisterMappings().CreateMapper());
+builder.Services.AddSingleton(MappingsPeopleConfig.RegisterMappings().CreateMapper());
+builder.Services.AddSingleton(MappingsPeopleConfig.RegisterMappings().CreateMapper());
 
 var app = builder.Build();
 

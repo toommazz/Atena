@@ -12,8 +12,10 @@ namespace Atena.Infra.Contexts.Base
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.ApplyConfiguration(new CompanyConfiguration());
+            modelBuilder.ApplyConfiguration(new GenderTypeConfiguration());
         }
 
         public DbSet<Company> Company { get; set; }
+        public DbSet<GenderType> GenderType { get; set; }
     }
 }

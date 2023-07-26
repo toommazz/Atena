@@ -8,7 +8,7 @@ namespace Atena.Domain.Commands.People.GenderType
         public RemoveGenderTypeCommand(Guid? id) : base (id) 
         { 
             Id= id;
-            Status = "0"; //Excluido
+            Status = "2"; //Excluido
         
         }
         public override bool IsValid()

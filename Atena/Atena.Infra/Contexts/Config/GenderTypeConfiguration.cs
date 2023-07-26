@@ -8,7 +8,7 @@ namespace Atena.Infra.Contexts.Config
     {
         public void Configure(EntityTypeBuilder<GenderType> builder)
         {
-            builder.ToTable("GenderType");
+            builder.ToTable("TbGenderType");
 
             builder.HasKey(x => x.Id);
 

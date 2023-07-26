@@ -3,5 +3,5 @@ using Atena.Domain.Model;
 
 namespace Atena.Domain.Queries
 {
-    public class GetPagedGendertypeQuery : GetPagedQuery<GenderType> {}
+    public class GetPagedGenderTypeQuery : GetPagedQuery<GenderType> {}
 }
