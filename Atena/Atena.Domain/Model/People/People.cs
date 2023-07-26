@@ -9,6 +9,7 @@ namespace Atena.Domain.Model
         public string FirstName { get; set; }
         public string LastName { get; set; }
         public Guid? GenderTypeId { get; set; }
-
+        public Guid? PersonTypeId { get; set; }
+        public Guid? MaritalStatusId { get; set; }
     }
 }
