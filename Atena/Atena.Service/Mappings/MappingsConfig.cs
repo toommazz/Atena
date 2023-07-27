@@ -21,6 +21,9 @@ namespace Atena.Service.Mappings
                 config.AddProfile(new MaritalStatusTypeToViewModel());
                 config.AddProfile(new ViewModelToMaritalStatusType());
                 config.AddProfile(new CommandToMaritalStatusType());
+                config.AddProfile(new PeopleToViewModel());
+                config.AddProfile(new ViewModelToPeople());
+                config.AddProfile(new CommandToPeople());
             });
         }
     }

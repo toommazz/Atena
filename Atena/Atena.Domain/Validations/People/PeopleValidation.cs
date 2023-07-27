@@ -20,15 +20,6 @@ namespace Atena.Domain.Validations.People
                 .NotEmpty()
                 .WithMessage("O nome é obrigatório!");
 
-            RuleFor(x => x.FirstName)
-                .NotEmpty()
-                .WithMessage("O primeiro nome é obrigatório!");
-
-            RuleFor(x => x.LastNAme)
-                .NotEmpty()
-                .WithMessage("O último nome é obrigatório!");
-
-
         }
 
     }

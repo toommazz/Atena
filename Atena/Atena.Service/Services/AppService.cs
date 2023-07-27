@@ -37,8 +37,9 @@ namespace Atena.Service
 
         public async Task Save(TView model)
         {
+          
             var command = _mapper.Map<TAddCommand>(model);
-
+            
             await _mediator.SendCommand(command);
 
             if (_notifications.HasNotifications())

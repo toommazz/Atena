@@ -3,14 +3,16 @@ using Atena.Domain.Validations.People;
 
 namespace Atena.Domain.Commands.People
 {
-    public class UptadePeopleCommand : PeopleCommand, IUpdateCommand
+    public class UpdatePeopleCommand : PeopleCommand, IUpdateCommand
     {
-        public UptadePeopleCommand(Guid? id,
+        public UpdatePeopleCommand(Guid? id,
             string name,
             string firstName,
             string lastName,
-            Guid genderTypeId
-            ) : base(id, name, firstName, lastName, genderTypeId)
+            Guid genderTypeId,
+            Guid personTypeId,
+            Guid maritalStatusId
+            ) : base(id, name, lastName, genderTypeId, personTypeId, maritalStatusId)
         {
             Id= id;
             Name = name;

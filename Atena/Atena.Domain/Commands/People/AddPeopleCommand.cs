@@ -8,10 +8,11 @@ namespace Atena.Domain.Commands.People
         public AddPeopleCommand(
             Guid? id,
             string name,
-            string firstName,
             string lastName,
-            Guid genderTypeId
-            ) : base(id, name, firstName, lastName, genderTypeId) { }
+            Guid genderTypeId,
+            Guid personTypeId,
+            Guid maritalStatusTypeId
+            ) : base(id, name, lastName, genderTypeId, personTypeId, maritalStatusTypeId) { }
         public override bool IsValid()
         {
             ValidationResult = new AddPeopleValidation().Validate(this);

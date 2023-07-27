@@ -9,9 +9,10 @@ namespace Atena.Domain.Commands.People
         public PeopleCommand(
             Guid? id,
             string name,
-            string firstName,
             string lastName,
             Guid genderTypeId,
+            Guid personTypeId,
+            Guid maritalStatusTypeId,
             string status = "1",
             DateTime included = default,
             DateTime updated = default
@@ -19,14 +20,16 @@ namespace Atena.Domain.Commands.People
         {
             Id= id;
             Name = name;
-            FirstName = firstName;
-            LastNAme = lastName;
+            LastName = lastName;
             GenderTypeId = genderTypeId;
+            PersonTypeId = personTypeId;
+            MaritalStatusTypeId = maritalStatusTypeId;
         }
         public string Name { get; set; }
-        public string FirstName { get; set; }
-        public string LastNAme { get; set; }
-        public Guid? GenderTypeId { get; set; }
+        public string LastName { get; set; }
+        public Guid GenderTypeId { get; set; }
+        public Guid PersonTypeId { get; set; }
+        public Guid MaritalStatusTypeId { get; set; }
 
         public override bool IsValid()
         {

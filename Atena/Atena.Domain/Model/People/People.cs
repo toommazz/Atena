@@ -6,10 +6,12 @@ namespace Atena.Domain.Model
     {
         public People(Guid? id) : base(id) {}
         public string Name { get; set; }
-        public string FirstName { get; set; }
         public string LastName { get; set; }
         public Guid? GenderTypeId { get; set; }
+        public GenderType GenderType { get; set; }
         public Guid? PersonTypeId { get; set; }
-        public Guid? MaritalStatusId { get; set; }
+        public PersonType PersonType { get; set; }
+        public Guid? MaritalStatusTypeId { get; set; }
+        public MaritalStatusType MaritalStatusType { get; set; }
     }
 }

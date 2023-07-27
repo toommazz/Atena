@@ -2,7 +2,7 @@
 
 namespace Atena.Domain.Validations.People
 {
-    public class UpdatePeopleValidation : PeopleValidation<UptadePeopleCommand>
+    public class UpdatePeopleValidation : PeopleValidation<UpdatePeopleCommand>
     {
         public UpdatePeopleValidation()
         {
