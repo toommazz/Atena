@@ -20,7 +20,7 @@ namespace Atena.Domain.QueryHandler
 
         public override  async Task<PagedList<MaritalStatusType>> AfterValidation(GetPagedMaritalStatusTypeQuery request)
         {
-            return await _repository.GetAllPagedAsync(request.Order, request.Page, request.Filter);
+            return await _repository.GetAllPagedAsync(request.Order, request.Page, null, request.Filter);
         }
     }
 }

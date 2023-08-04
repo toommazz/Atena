@@ -23,7 +23,7 @@ namespace Atena.Domain.Core.QueryHandlers
         public override async Task<PagedList<TResponse>> AfterValidation(TQuery request)
         {
             var resultado = await _repository.GetAllPagedAsync(
-                request.Order, request.Page, request.Filter);
+                request.Order, request.Page, null ,request.Filter);
 
             return resultado;
         }

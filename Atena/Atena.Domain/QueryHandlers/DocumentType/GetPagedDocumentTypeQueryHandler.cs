@@ -19,7 +19,7 @@ namespace Atena.Domain.QueryHandler
         }
         public override async Task<PagedList<DocumentType>> AfterValidation(GetPagedDocumentTypeQuery request)
         {
-            return await _repository.GetAllPagedAsync(request.Order, request.Page, request.Filter);
+            return await _repository.GetAllPagedAsync(request.Order, request.Page, null, request.Filter);
         }
 
     }

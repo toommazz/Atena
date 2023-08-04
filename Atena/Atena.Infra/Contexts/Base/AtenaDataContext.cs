@@ -10,7 +10,7 @@ namespace Atena.Infra.Contexts.Base
         public AtenaDataContext(DbContextOptions<AtenaDataContext> opts) : base(opts) { }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
-        {
+        {            
             modelBuilder.ApplyConfiguration(new CompanyConfiguration());
             modelBuilder.ApplyConfiguration(new GenderTypeConfiguration());
             modelBuilder.ApplyConfiguration(new MaritalStatusTypeConfiguration());

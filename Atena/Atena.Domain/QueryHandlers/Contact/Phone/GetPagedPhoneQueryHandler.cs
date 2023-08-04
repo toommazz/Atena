@@ -20,7 +20,7 @@ namespace Atena.Domain.QueryHandler
 
         public override async Task<PagedList<Phone>> AfterValidation(GetPagedPhoneQuery request)
         {
-            return await _repository.GetAllPagedAsync(request.Order, request.Page, request.Filter);
+            return await _repository.GetAllPagedAsync(request.Order, request.Page, null, request.Filter);
         }
     }
 }

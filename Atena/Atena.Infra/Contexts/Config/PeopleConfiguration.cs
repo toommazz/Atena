@@ -9,13 +9,16 @@ namespace Atena.Infra.Contexts.Config
         public void Configure(EntityTypeBuilder<People> builder)
         {
             builder.ToTable("TbPeople");
-              //  .HasMany("GenderType")
-            //    .WithMany("People");
-                
+
             builder.HasKey(x => x.Id);
 
             builder.Property(s => s.Id)
                 .IsRequired();
+            
+            builder
+               .HasOne(p => p.GenderType)
+               .WithMany()
+               .HasForeignKey(p => p.GenderTypeId);
         }
     }
 }

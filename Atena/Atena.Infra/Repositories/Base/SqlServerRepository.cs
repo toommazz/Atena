@@ -1,7 +1,9 @@
 ﻿using Atena.Domain.Core.Data;
 using Atena.Domain.Core.Model;
 using Atena.Domain.Core.Repositories;
+using Atena.Domain.Model;
 using Atena.Infra.Contexts.Base;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.ChangeTracking;
 using System.Linq.Expressions;
 
@@ -38,9 +40,14 @@ namespace Atena.Infra.Repositories.Base
             return result;
         }
 
-        public async Task<PagedList<TEntity>> GetAllPagedAsync(Order order, Page page, Expression<Func<TEntity, bool>> filter = null)
+        public async Task<PagedList<TEntity>> GetAllPagedAsync(Order order, Page page, ICollection<string> include = null, Expression<Func<TEntity, bool>> filter = null)
         {
             IQueryable<TEntity> query = _context.Set<TEntity>();
+
+            foreach (var inc in include)
+            {
+                query = query.Include(inc);
+            }
 
             if (filter != null)
             {
@@ -71,25 +78,23 @@ namespace Atena.Infra.Repositories.Base
             return resultOrder.FirstOrDefault();
         }
 
-        public async Task<TEntity> GetOneAsync(Expression<Func<TEntity, bool>> filter = null, Func<Expression<Func<TEntity, bool>>, TEntity> whenNoExists = null)
+        public virtual async Task<TEntity> GetOneAsync(Expression<Func<TEntity, bool>> filter = null, ICollection<TEntity> include = null, Func<Expression<Func<TEntity, bool>>, TEntity> whenNoExists = null)
         {
-            try
+            IQueryable<TEntity> query = _context.Set<TEntity>();
+
+            if (include != null)
             {
-                IQueryable<TEntity> query = _context.Set<TEntity>();
-
-                var cursor = query.Where(filter);
-
-                var result = cursor?.FirstOrDefault();
-
-                return result;
-            }
-            catch (Exception ex)
-            {
-
-                throw ex;
+                foreach (var item in include)
+                {
+                    query = query.Include(item.GetType().Name);
+                }
             }
 
-            
+            var cursor = query.Where(filter);
+
+            var result = cursor?.FirstOrDefault();
+
+            return result;
         }
 
         public async Task<EntityEntry<TEntity>> RemoveAsync(Guid? id)

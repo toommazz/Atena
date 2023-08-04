@@ -8,6 +8,8 @@ namespace Atena.Service.ViewModels
         public string Name { get; set; }
         public string LastName { get; set; }
         public Guid GenderTypeId { get; set; }
+
+        public GenderType GenderType { get; set; }
         public Guid PersonTypeId { get; set; }
         public Guid MaritalStatusTypeId { get; set; }
         public DateTime Included { get; set; }
