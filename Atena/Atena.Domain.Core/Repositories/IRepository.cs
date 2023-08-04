@@ -10,7 +10,7 @@ namespace Atena.Domain.Core.Repositories
             Expression<Func<TEntity, bool>> filter = null);
 
         Task<TEntity> GetOneAsync(
-            Expression<Func<TEntity, bool>> filter = null, ICollection<TEntity> include = null,
+            Expression<Func<TEntity, bool>> filter = null, ICollection<string> include = null,
             Func<Expression<Func<TEntity, bool>>, TEntity> whenNoExists = null);
 
         Task<TEntity> GetLastOneAsync(

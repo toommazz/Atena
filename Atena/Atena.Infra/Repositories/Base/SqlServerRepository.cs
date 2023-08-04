@@ -78,7 +78,7 @@ namespace Atena.Infra.Repositories.Base
             return resultOrder.FirstOrDefault();
         }
 
-        public virtual async Task<TEntity> GetOneAsync(Expression<Func<TEntity, bool>> filter = null, ICollection<TEntity> include = null, Func<Expression<Func<TEntity, bool>>, TEntity> whenNoExists = null)
+        public virtual async Task<TEntity> GetOneAsync(Expression<Func<TEntity, bool>> filter = null, ICollection<string> include = null, Func<Expression<Func<TEntity, bool>>, TEntity> whenNoExists = null)
         {
             IQueryable<TEntity> query = _context.Set<TEntity>();
 
@@ -86,7 +86,7 @@ namespace Atena.Infra.Repositories.Base
             {
                 foreach (var item in include)
                 {
-                    query = query.Include(item.GetType().Name);
+                    query = query.Include(item);
                 }
             }
 

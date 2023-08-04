@@ -3,6 +3,7 @@ using Atena.Domain.Core.QueryHandlers;
 using Atena.Domain.Model;
 using Atena.Domain.Queries;
 using Atena.Domain.Repositories;
+using System.Collections.ObjectModel;
 using System.Linq;
 
 namespace Atena.Domain.QueryHandler
@@ -20,7 +21,9 @@ namespace Atena.Domain.QueryHandler
 
         public override async Task<People> AfterValidation(GetPeopleQuery request)
         {
-            return await _repository.GetOneAsync(x => x.Id == request.Id);
+            ICollection<string> include = new Collection<string>();
+            include.Add(typeof(GenderType).Name);
+            return await _repository.GetOneAsync(x => x.Id == request.Id, include);
         }
     }
 }
